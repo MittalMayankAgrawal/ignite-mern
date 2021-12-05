@@ -1,0 +1,63 @@
+.title {
+  font-size: 45px;
+  /* padding-top: 250px; */
+  /* margin-bottom: 25px; */
+  position: absolute;
+  top: 75%;
+  right: 50%;
+  color: black;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-weight:650 ;
+
+}
+.subtitle {
+  position: absolute;
+  right: 50%;
+  font-size: 28px;
+  padding-top: 200px;
+  color: black;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-weight:650 ;
+
+
+}
+
+.main {
+  min-height: 95vh;
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  background: url('../../img/wc1765288-all-game-wallpapers.jpg');
+ 
+  background-position: center;
+  background-size: cover;
+}
+.buttonContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landingbutton {
+  width: 200px;
+  height: 55px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .buttonContainer {
+    padding: 0 200px;
+  }
+  .title {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 60px;
+  }
+  .landingbutton {
+    width: 150px;
+    height: 50px;
+  }
+}
