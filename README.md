@@ -2,12 +2,12 @@
 <table>
 <tr>
 <td>
- IGNITE THE GAMING SEARCH ENGINE
+ IGNITE THE GAMING PLATFORM
 </td>
 </tr>
 </table>
 
-# ![IGNITE The Gaming Platform]
+# [IGNITE The Gaming Platform]
 
 
 ## Demo
